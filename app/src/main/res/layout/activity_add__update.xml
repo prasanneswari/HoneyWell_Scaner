@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Update">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inward"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/login_back"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:id="@+id/company"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/pwd_back"
+                        android:spinnerMode="dropdown"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:id="@+id/commadity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/pwd_back"
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/pwd_back"
+                        android:gravity="center"
+                        android:text="TIME"
+                        android:textColor="#fff"
+                        android:layout_marginRight="10dp"/>
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/pwd_back"
+                        android:gravity="center"
+                        android:text="DATE"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Quantity :"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        />
+                    <EditText
+                        android:id="@+id/quantity"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/pwd_back"
+                        android:spinnerMode="dropdown"
+                        android:hint="quantity"
+                        android:paddingLeft="10dp"
+                        android:textColorHint="#ccc"
+                        android:textColor="#fff"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+<!--
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                >
+                <Button
+                    android:id="@+id/savebtn"
+                    android:layout_width="281dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:width="42dp"
+                    android:height="17dp"
+                    android:background="@drawable/singin_back"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.21"
+                    android:text="SAVE"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+            </LinearLayout>
+-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                android:height="17dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="SCAN &amp; SAVE"
+                android:id="@+id/scanbtn"
+                android:lineSpacingMultiplier="1.21"
+                android:width="89dp"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:background="@drawable/scan_back"
+                />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

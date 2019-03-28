@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wellcome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INWARD"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="top"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+            <Button
+                android:height="19dp"
+                android:id="@+id/addbtn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:lineSpacingMultiplier="1.21"
+                android:text="ADD / UPDATE"
+                android:width="150dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@drawable/singin_back"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:height="19dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:lineSpacingMultiplier="1.21"
+                    android:text="VIEW"
+                    android:width="150dp"
+                    android:id="@+id/viewbtn"
+                    android:textColor="#fff"
+                    android:background="@drawable/singin_back"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:height="19dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:lineSpacingMultiplier="1.21"
+                    android:text="GENERATE"
+                    android:width="150dp"
+                    android:id="@+id/generate"
+                    android:textColor="#fff"
+                    android:background="@drawable/singin_back"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:height="19dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:lineSpacingMultiplier="1.21"
+                    android:text="UPLOAD"
+                    android:width="150dp"
+                    android:id="@+id/upload"
+                    android:textColor="#fff"
+                    android:background="@drawable/singin_back"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:height="19dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:lineSpacingMultiplier="1.21"
+                    android:text="FETCH"
+                    android:width="150dp"
+                    android:id="@+id/fetchbtn"
+                    android:textColor="#fff"
+                    android:background="@drawable/singin_back"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
